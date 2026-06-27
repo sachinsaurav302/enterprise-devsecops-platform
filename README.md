@@ -94,20 +94,37 @@ This repository is being developed as a real-world portfolio project that follow
 ```
 enterprise-devsecops-platform/
 
+enterprise-devsecops-platform/
+│
 ├── application/
+│   ├── frontend/
+│   ├── backend/
+│   └── database/
+│
 ├── architecture/
+│   └── images/
+│
 ├── docs/
-├── github-actions/
-├── helm/
-├── kubernetes/
-├── monitoring/
-├── scripts/
-├── security/
+│   └── decision-records/
+│
 ├── terraform/
-├── .gitignore
+├── kubernetes/
+├── helm/
+├── github-actions/
+├── monitoring/
+├── security/
+├── scripts/
+│
+├── .github/
+│   └── workflows/
+│
+├── README.md
 ├── LICENSE
-└── README.md
-```
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+└── .gitignore
 
 ---
 
